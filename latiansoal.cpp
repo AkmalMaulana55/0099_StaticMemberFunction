@@ -12,4 +12,10 @@ class Barang {
         string namaBarang;
         int kodeBarang;
     
+    public:
+        Barang(string nama, int kode) {
+            this->namaBarang = nama;
+            this->kodeBarang = kode;
+        }
+
 };
