@@ -23,3 +23,10 @@ class Barang {
             cout << "Kode Barang : " << this->kodeBarang << endl;
         }
 };
+
+int main() {
+    Barang *a = new Barang("Vivo X200 Pro", 67085742);
+    a->output();
+
+    return 0;
+}
